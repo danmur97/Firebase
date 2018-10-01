@@ -7,9 +7,17 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-list>
+  <!-- <ion-list>
     <ion-item class="text" *ngFor="let item of items | async">
       {{item | json}}
     </ion-item>
-  </ion-list>
+  </ion-list> -->
+  <ion-buttons>
+    <button ion-button (click)="create()">
+        <ion-icon>Create</ion-icon>
+    </button>
+    <button ion-button (click)="delete()">
+      <ion-icon>Delete</ion-icon>
+  </button>
+  </ion-buttons>
 </ion-content>

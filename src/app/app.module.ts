@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/database';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { ReporterProvider } from '../providers/reporter/reporter';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyC2uDJ8MA0x-BdS_b2VdhpGJJWGm-uC0iQ",
@@ -41,7 +42,8 @@ export const firebaseConfig = {
     StatusBar,
     SplashScreen,
     AngularFireDatabase,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ReporterProvider
   ]
 })
 export class AppModule {}
