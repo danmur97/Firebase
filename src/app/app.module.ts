@@ -13,12 +13,12 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { ReporterProvider } from '../providers/reporter/reporter';
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyC2uDJ8MA0x-BdS_b2VdhpGJJWGm-uC0iQ",
-    authDomain: "rutas-abd8d.firebaseapp.com",
-    databaseURL: "https://rutas-abd8d.firebaseio.com",
-    projectId: "rutas-abd8d",
-    storageBucket: "rutas-abd8d.appspot.com",
-    messagingSenderId: "1056497253760"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 
 @NgModule({
